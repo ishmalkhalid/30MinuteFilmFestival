@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="TMR06.03.10">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>06.03.10, Oggins, The Kings and Their Hawks (Amanda Luyster)</title>
+            <author>
+               <persName>
+                  <forename type="first">Amanda</forename>
+                  <surname>Luyster</surname>
+                  <affiliation>College of the Holy Cross</affiliation>
+                  <email>aluyster@holycross.edu</email>
+               </persName>
+            </author>
+            <respStmt>
+               <resp>encoder</resp>
+               <name>tmr</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Michigan University Library, Scholarly Publishing Office</publisher>
+            <pubPlace>Ann Arbor</pubPlace>
+            <idno type="dlps">baj9928.0603.010</idno>
+            <idno type="tmr">06.03.10</idno>
+            <date when="2006">2006</date>
+            <availability status="unknown">
+               <p>Copyright 2015 Trustees of Indiana University</p>
+               <p>Indiana University provides the information contained in this
+                file for non-commercial, personal, or research use only. All other use,
+                including but not limited to commercial or scholarly reproductions,
+                redistribution, publication or transmission, whether by electronic means or
+                otherwise, without prior written permission of the copyright holder is
+                strictly prohibited.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s" type="current">The Medieval Review</title>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl>
+               <name>Oggins, Robin S.</name>
+               <title>The Kings and Their Hawks: Falconry in Medieval England</title>
+               <pubPlace>New Haven</pubPlace>
+               <publisher>Yale University Press</publisher>
+               <date when="2004">2004</date>
+               <extent>Pp. xvi, 251</extent>
+               <note type="price">$40.00</note>
+               <idno type="isbn">0-300-10058-2</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl n="4">
+            <p> </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <list>
+                  <item>
+                     <term type="genre">review</term>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="Siobhain Rivera" when="2015-02-09">Transformed encoding to P5 TEI.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="article">
+            <p>This book by Robin S. Oggins is an approachable and revealing study of falconry and hawking in medieval England, drawing upon a wide range of sources, preeminently archival evidence from the English kings through Edward I but also didactic literature and romance, saints' lives, art history, and archaeology. This book will prove useful both to those who are scholars of English royal history and to those who are interested in the more general cultural phenomenae of manners and the display of status (in the tradition of Joachim Bumke and Thorstein Veblen, both of whose scholarship Oggins cites but upon whom he is not over-reliant).</p>
+            <p>The author begins with a general overview of the nature of falconry and hawking and the sources which he has used. The middle chapters treat English royal falconry through the reign of Edward I. These chapters reveal substantial research in the Public Record Office and the British Library in London and provide a real contribution to scholarship on English royal households, as both the daily activities and gradual changes in habits of kings and falconers are here described. The final chapter, however, "Falconry in Medieval Life," was the one which this reviewer found most valuable. Drawing not only from the evidence of previous chapters but from a broad range of scholarship, the author describes the various types of individuals who might fly hawks or falcons and the range of meanings which falconry held in the Middle Ages. Both visual and literary sources suggest conceptual links between falconry and nobility, worldliness, and youth. Rich enough to encompass both positive and negative connotations, then, the medieval practices of falconry and hawking have also provided enough material for many decades of work by Robin S. Oggins, who describes in his Introduction how he was assigned the topic as a doctoral dissertation.</p>
+            <p>Despite the worth of this book, due both to its historical research and to its construction of a readable and indeed enlightening overview of falconry, the first chapter, "The Sources," left this reviewer unsatisfied in one regard at least. Oggins describes in this chapter how falconry as such was unknown in antiquity, and the earliest identified western source to treat falconry at any length dates from the mid-tenth century (1, although there are mentions of falconry in western Europe from the fifth century on, 37). By the fourteenth century, the number of western works on falconry had increased dramatically and was directed toward a broader audience. The twelfth century seems to have marked a transitional period of time, in which there was a noticeable increase in extant works, probably due to greater contact with the Islamic world (2, citing Van den Abeele). It is in this exciting possibility to pursue relations between the western and the Islamic world where I see an opportunity lost. I would have hoped that the author might have addressed, at the very least in summary form, the history of falconry in the Islamic world, apparently the nurturing ground both of falconry as a practice and the literature of falconry. Since so much of this book deals with falconry as a noble art, practiced by kings, it could be revealing to learn more about how this practice evolved in the Islamic world. Perhaps this is an unrealistic request--but the story of falconry is left in this chapter without any true beginning. If the beginning of falconry as a broader medieval practice is left vague, however, the beginning of falconry in England will be treated with due consideration and depth in Chapter 3 (Falconry in Anglo-Saxon England). One is reminded that, in all chapters save the final "Falconry in Medieval Life," the focus of the author is on medieval England, and sources from elsewhere are introduced only as needed (and indeed, brief mentions of the Islamic world are made in other chapters in support of other points). In addition, although this chapter provides a review of sources, there is nothing approaching a review of previous literature on falconry (although much is cited in the bibliography), an addition which would have been useful, especially when written by somebody so clearly familiar with the field.</p>
+            <p>The second chapter, "The Birds, Their Training, and the Sport of Falconry," provides a clearly-written summary of the distinction between hawks and falcons (physical differences which lead to distinct methods of catching prey: falcons plummet toward their prey from a great height, striking it heavily, whereas hawks approach their quarry from a low altitude and fly it down with a quick burst of speed; see 10-11) and other details about the nature of the birds and their handling. Different types of birds were considered more and less noble; female birds were generally larger and more frequently flown. Birds to be trained were taken from the nest, fed and cared for, then blinded by sewing up their eyelids ("seeling"). A long process of controlled adaptation to human sights and sounds, followed by training to fly at lures and finally at prey, was undertaken. This chapter concludes with an evocative description of the appeal of falconry: "not only did falconry include fine flights, but it also involved the exhilaration of the kill, the energy expended in retrieving the game, the gusto of the successful venture, and the well-earned posthunt repose" (35).</p>
+            <p>Chapter 3, "Falconry in Anglo-Saxon England," begins the close historical work. The earliest dated reference to falconry in England is in 745-6, and the history of royal falconry expands with the royal administration in England (36-38). Welsh evidence of falconry is also adduced here. The author's focus on falconry as a royal sport serves to provide a historical backbone for this chapter and those following, although it is also true (as Oggins notes) that humbler members of society also flew hawks. Oggins treads carefully here: while maintaining that falconry in England began as a royal sport and then spread to other social classes, he notes that falconry was a way of making a living for the poorer members of society, and hence that a distinction remained between falconry as practiced by the upper classes and as practiced by those who relied on it for more practical reasons (49). In a later chapter, the author develops this thesis: in the later Middle Ages, when merchants and townspeople and people of various classes might know how to fly a hawk, status was determined not by the sport itself but by what accompanied the sport: the type of bird, the circumstances under which the bird was flown, and the terms used to describe the bird's flight (117). Falconry could at that point be viewed as "an aspect of the eternal war between haves and would-bes," as the up-and-coming attempted to assume the manners of the upper classes and the nobility attempted to maintain their exclusivity (117).</p>
+            <p>Chapters 4, 5, and 6 treat falconry under the English kings from William I to Edward I. Close study of the archives reveals not only certain kings' specific predilections for falconry but also the growth and development of entire families devoted to falconry and the royal position of falconer, a position which many used as a stepping-stone to higher prospects, including knighthood. The status of the falconer under different administrations is examined, and his wages and social conditions is recorded in minute detail. The role of falcons and hawks in the royal economy is also carefully delineated: certain debts were owed in hawks, for instance (60), and a group of nuns paid a sparrowhawk to have a charter altered (68). Oggins concludes his study with the records of Edward I, stating that falconry continued under the English kings after Edward I, declining under Edward II but coming into favor again under Edward III, and indeed, was practiced in the English royal family until the seventeenth century, but the records remaining were never again as detailed as they had been under Edward I (108).</p>
+            <p>The visual and written sources on nonroyal falconry in the fourteenth and fifteenth centuries increase tremendously, which allows the presence of the final chapter, Chapter 7, "Falconry in Medieval Life," already mentioned as the high point of the book, at least to this reader. Here these sources on nonroyal falconry not only in England but in western Europe are brought together to "examine why people flew hawks and falcons, who flew them, and how the sport was viewed." Subsections are entitled "Falconry and Medieval Social Status," "Women," "Townspeople," "Peasants," "Clergy," and "How Falconry was Perceived." While many points made here have been made elsewhere, many have not, and for sheer vibrancy and all-inclusiveness this essay is impressive. It could easily be assigned to undergraduates or more advanced students in a course on medieval culture or history.</p>
+            <p>Although hawking was beloved of many types of men and women, and perches were found in many bedrooms, the upper-class character of falconry meant that a single bird might cost a knight half his yearly income (or more), that either one must have copious amount of leisure time to train and tend the bird or be wealthy enough to pay someone to do so, and that those who flew such fine birds did not do so out of necessity. Therefore falconry as practiced by the upper classes was a perfect example of conspicuous consumption: expensive, time-consuming, and useless (111). The link between falconry and high status was established by the twelfth century, when falconry was part of an upper-class education, and it became part of the noble identity, something aristocratic clergy were reluctant to let go and a way in which romance heroes of unknown birth were able to demonstrate their innate nobility (111-113). Women too, although infrequent participants in the hunt, were often active participants in falconry. Queens paid falconers, and women were known to fly falcons themselves. Many women, including queens, presented themselves on their seals with a falcon on the wrist (118).</p>
+            <p>Despite the positive connotations of high status presented by falconry, however, the image of the man or woman with a falcon was also used to suggest worldliness. The presence of such imagery in depictions of the sins of avarice, gluttony, and lust in <hi rend="i">Bibles moralisées</hi> and elsewhere makes use of the associations between falcons, fine goods, and physical pursuits to cast falconry in a more sinister light. Oggins describes images of falcons held by devils, Jews, and the prodigal son (130). In one final twist, however, the author includes an image of a sculpted angel from Lincoln cathedral who holds a falcon and feeds it a large drumstick. Located directly across from an image of Christ showing his wounds, Oggins describes how this image should be read in the light of a fifteenth-century poem which compares Christ showing his wounds to convert a disbelieving public to a falconer showing a piece of raw meat to a "wild-flying hawk" to lure it back (134, citing M. D. Anderson).</p>
+            <p>If falconry was used to connote both noble status and worldliness in different contexts, it was also used to connote youth. The physical nature of the sport, and the joyfulness and high energy which might accompany it, as well as the place of falconry in the education of the young, meant that for many falconry suggested the zest of youth (135). The famous image of the Three Living and the Three Dead in the De Lisle Psalter, depicted in this book as Plate 8, gains new resonance from such knowledge: the foremost figure among the living carries a falcon on his outstretched hand. The youth, high status, and worldly vanity of the three thoughtless living--about to realize the inescapable truth of mortality--are echoed and codified by the presence of the falcon. Such realizations abound in this well-written and enjoyable study, which presents us with a copious body of knowledge on English royal falconry and an even richer body of insight and possibilities for interpretation of falconry in a broader medieval world.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

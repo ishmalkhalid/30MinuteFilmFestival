@@ -1,0 +1,334 @@
+*{
+  padding:0;
+  margin:0;
+  text-decoration: none;
+  list-style:none;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;;
+}
+nav{
+  background: black;
+  height:85px;
+/*  width:100%;
+*/  min-width: 1440px;
+}
+.logo{
+/*  color:#907137;
+  font-size: 35px;
+  line-height: 80px;*/
+  padding: 20px 0 30px 100px;
+  width: 22%;
+/*  font-weight: bold;*/
+}
+
+nav ul{
+  float:right;
+  margin-right:20px;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a{
+  color:#cc7a00;
+  font-size:18px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform:uppercase;
+}
+
+a.active, a:hover{
+	color: #ffc266;
+	text-decoration: underline;
+	transition: .3s;
+}
+
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float:right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display:none;
+}
+#check{
+  display: none;
+}
+
+@media (max-width:952px){
+  label.logo{
+    font-size:30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width:858px){
+  .checkbtn{
+    display: block;
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #202020;
+    top:80px;
+    left:-100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display:block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size:20px;
+  }
+  a:hover, a.active{
+	color: #DABF8D;
+	text-decoration: underline;
+	transition: .3s;
+  }
+  #check:checked ~ ul{
+    left:0;
+  }
+}
+
+.bg-1 {
+	/*background: url("sun.jpg");*/
+	/*background: linear-gradient((255,0,0,0), (255,0,0,0.8));*/
+	background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(bag.jpg);
+	background-size: cover;
+	height: 85vh;
+	min-width: 1440px;
+}
+
+.videoholder {
+/*	width: 10%;*/
+	min-width: 100px;
+/*	display: inline;
+*/	float: left;
+/*	margin: 0 auto;
+*/	padding-top: 95px;
+	padding-left: 100px;
+}
+
+.headingholder {
+/*	width: 90%;*/
+	min-width: 100px;
+/*	display: inline;
+*/	float: right;
+	padding: 95px 10px 0 20px;
+}
+
+.primevid {
+    border-style: none;
+}
+
+.main-title {
+	font-size: 3.5em;
+	color: #ffe680; /*#DABF8D;*/
+	float: right;
+	padding-right: 110px;
+
+}
+
+.main-title-bottom {
+	font-size: 35px;
+}
+
+.bg-2 {
+	background-color:#FFE9C0; 
+	min-width: 1440px;
+	height: auto;
+}
+
+.sec-title {
+	font-size: 40px;
+	color: #202020;
+	padding: 45px 0 20px 100px;
+}
+.trending-movies{
+	padding-left: 45px;
+	margin-left: 45px;
+}
+
+.eachmov {
+	float: left;
+	width: 19%;
+	padding: 5px;
+}
+
+/*div.eachmov img {
+	width: 100%;
+}
+*/
+.trending-movies::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.eachvid {
+	float: left;
+	width: 24%;
+	padding: 10px;
+	padding-bottom: 40px;
+}
+
+.bg-3 {
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(rev1.jpg);
+/*	background-color: #B29258; */
+	height: 70vh;
+	min-width: 1440px;
+}
+
+.quoteimg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 16%;
+	padding-top: 20px;
+}
+
+.eachtestimonial {
+	font-size: 24px;
+	text-align: center;
+	padding-right: 25%;
+	padding-left: 25%;
+	padding-top: 20px;
+    color: #ffe680;
+}
+
+.person {
+	font-size: 28px;
+
+}
+/* Slideshow container */
+.slideshow-container {
+/*	min-width: 1000px;
+*/	position: relative;
+	margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+/*.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}*/
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dot:hover {
+  background-color: #717171;
+}
+
+#mydots .active{
+	background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.footer {
+	background-color: black; 
+	height: 30vh;
+	min-width: 1440px;
+}
+
+.contactlogos {
+	width: 50%;
+	text-align: center;
+	margin: auto;
+	padding-top: 30px;
+}
+
+.footer-elements{
+	color: darkgrey;
+	text-align: center;
+    text-decoration: none;
+}
+
+.footer-elements a{
+    text-decoration: none;
+    color: darkgrey;
+    
+}
