@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang = "en" dir = "ltr">
+  <head>
+    <meta charset = "utf-8" >
+    <title>LOLLYWOOD LTD.</title>
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "Styles/teamStyles.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id = "check">
+      <label for="check" class = "checkbtn">
+        <i class="fas fa-bars" style = "color: #907137;"></i>
+      </label>
+      <label ><img class ="logo" src="Images/logo.png"></label>
+      <ul>
+          <li><a href = "index.html">Home</a></li>
+          <li><a href = "about.html">About</a></li>
+          <li><a class = "active" href = "team.html">Team</a></li>
+          <li><a href = "contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="bg-3">
+        <div class="team-title"><b>OUR TEAM </b></div>  
+    <!-- INSPIRATION FROM W3SCHOOLS -->
+		<div class="slideshow-container">
+
+		<div class="mySlides fade">
+		  <div class="numbertext">1 / 4</div>
+		  <img class="ishmalimg" src="Images/ishmalimg.png">
+		  <div class="eachtestimonial">
+		  	<div>"If the plan doesn't work, change the plan. Not the goal."</div>
+            <br>
+		  	<div class="person"><b>Ishmal Khalid</b></div>
+            
+		  </div>
+		</div>
+
+		<div class="mySlides fade">
+		  <div class="numbertext">1 / 4</div>
+		  <img class="ishmalimg" src="Images/hessaimg.png">
+		  <div class="eachtestimonial">
+		  	<div>"Keep on learning and discovering yourself."</div>
+              <br>
+		  	<div class="person"><b>Hessa Alabbas</b></div>
+		  </div>
+		</div>
+
+		<div class="mySlides fade">
+		  <div class="numbertext">1 / 4</div>
+		  <img class="ishmalimg" src="Images/aminaimg.png">
+		  <div class="eachtestimonial">
+		  	<div>"Never forget why you started"</div>
+              <br>
+		  	<div class="person"><b>Amina Kobenova</b></div>
+		  </div>
+		</div>
+            
+        <div class="mySlides fade">
+		  <div class="numbertext">1 / 4</div>
+		  <img class="ishmalimg" src="Images/ishmalimg.png">
+		  <div class="eachtestimonial">
+		  	<div>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."</div>
+              <br>
+		  	<div class="person"><b>Rashid Al Qubaisi</b></div>
+		  </div>
+		</div>
+
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+		</div>
+
+		<div style="text-align:center" id="mydots">
+		  <span class="dot" onclick="currentSlide(1)"></span> 
+		  <span class="dot" onclick="currentSlide(2)"></span> 
+		  <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span> 
+		</div> 
+
+    </section>
+        
+      
+    <section class="footer">
+    <div class="contactlogos">
+        <img width="10%" src="Images/facebook.png">
+        <img width="10%" src="Images/linkedin.png">
+        <img width="10%" src="Images/instagram.png">
+    </div>
+    <div class="footer-elements">
+        <a href="index.html"><span style="word-spacing: 15px">HOME </span></a>
+        <span style="letter-spacing: 15px">|</span>
+        <a href="about.html"><span style="word-spacing: 15px">ABOUT </span></a>
+        <span style="letter-spacing: 15px">|</span>
+        <a href="index.html"><span style="word-spacing: 15px">TEAM </span></a>
+        <span style="letter-spacing: 15px">|</span>
+        <a href="index.html"><span style="word-spacing: 15px">CONTACT </span></a>
+        <div style="padding-top: 10px">COPYRIGHT &copy LOLLYWOOD LTD.</div>
+    </div>
+
+    </section>
+
+      <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+    </script>

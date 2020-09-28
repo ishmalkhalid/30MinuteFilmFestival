@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 body{
-  font-family: 'Poppins', sans-serif;;
+  font-family: 'Poppins', sans-serif;
 }
 nav{
   background: black;
@@ -105,7 +105,7 @@ a.active, a:hover{
 .bg-1 {
 	/*background: url("sun.jpg");*/
 	/*background: linear-gradient((255,0,0,0), (255,0,0,0.8));*/
-	background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(bag.jpg);
+	background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(try4.jpg);
 	background-size: cover;
 	height: 85vh;
 	min-width: 1440px;
@@ -142,7 +142,7 @@ a.active, a:hover{
 }
 
 .main-title-bottom {
-	font-size: 35px;
+	font-size: 23px;
 }
 
 .bg-2 {
@@ -230,9 +230,9 @@ a.active, a:hover{
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -22px;
+  margin-top: 30px;
   padding: 16px;
-  color: black;
+  color: #ffe680;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -331,4 +331,10 @@ a.active, a:hover{
     text-decoration: none;
     color: darkgrey;
     
+}
+
+.icontxt {
+    font-family: 'Poppins', sans-serif; 
+    font-weight: normal;
+    font-size: 14px;
 }

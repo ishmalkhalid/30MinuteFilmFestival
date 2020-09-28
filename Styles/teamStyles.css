@@ -1,0 +1,309 @@
+*{
+  padding:0;
+  margin:0;
+  text-decoration: none;
+  list-style:none;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;;
+}
+nav{
+  background: black;
+  height:85px;
+/*  width:100%;
+*/  min-width: 1440px;
+}
+.logo{
+/*  color:#907137;
+  font-size: 35px;
+  line-height: 80px;*/
+  padding: 20px 0 30px 100px;
+  width: 22%;
+/*  font-weight: bold;*/
+}
+
+nav ul{
+  float:right;
+  margin-right:20px;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a{
+  color:#cc7a00;
+  font-size:18px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform:uppercase;
+}
+
+a.active, a:hover{
+	color: #ffc266;
+	text-decoration: underline;
+	transition: .3s;
+}
+
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float:right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display:none;
+}
+#check{
+  display: none;
+}
+
+@media (max-width:952px){
+  label.logo{
+    font-size:30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width:858px){
+  .checkbtn{
+    display: block;
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #202020;
+    top:80px;
+    left:-100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display:block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size:20px;
+  }
+  a:hover, a.active{
+	color: #DABF8D;
+	text-decoration: underline;
+	transition: .3s;
+  }
+  #check:checked ~ ul{
+    left:0;
+  }
+}
+
+.bg-1 {
+    
+/*    background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(aboutbg.jpg);*/
+/*    background-size: cover;*/
+/*	height: 11vh;*/
+/*    background-color: #FFE9C0;*/
+/*    background-color: black;*/
+    
+	min-width: 1440px;
+/*    color: #DABF8D;*/
+}
+
+.team-title {
+    min-width: 1440px;
+    color: #ffe680;
+/*    color: #b36b00;*/
+    padding: 2.5px 0 0px 30px;
+    font-size: 45px;
+    text-align: center;
+    background: -webkit-linear-gradient(#b36b00, #DABF8D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.abouttxt {
+    height: 65vh;
+    background-color: rgba(0,0,0,0.6);
+    margin: 0 150px;
+    border-radius: 15px;
+}
+
+.bg-3 {
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(teambg.jpg);  
+    background-size: cover;
+	height: 80vh;
+	min-width: 1440px;
+}
+
+.ishmalimg {
+/*    border-radius: 50%;*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 16%;
+	padding-top: 20px;
+}
+
+.hessaimg {
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 16%;
+	padding-top: 20px;
+}
+
+.eachtestimonial {
+	font-size: 24px;
+	text-align: center;
+	padding-right: 25%;
+	padding-left: 25%;
+	padding-top: 20px;
+    color: #ffe680;
+}
+
+.person {
+	font-size: 28px;
+
+}
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+	margin: auto;
+    height: 66vh;
+    background-color: rgba(0,0,0,0.6);
+    margin: 0 150px;
+    border-radius: 15px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #ffe680;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+/*.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}*/
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dot:hover {
+  background-color: #717171;
+}
+
+#mydots .active{
+	background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+	background-color: black; 
+	height: 30vh;
+	min-width: 1440px;
+}
+
+.contactlogos {
+	width: 50%;
+	text-align: center;
+	margin: auto;
+	padding-top: 30px;
+}
+
+.footer-elements{
+	color: darkgrey;
+	text-align: center;
+    text-decoration: none;
+}
+
+.footer-elements a{
+    text-decoration: none;
+    color: darkgrey;
+    
+}
