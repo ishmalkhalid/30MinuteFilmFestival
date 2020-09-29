@@ -146,9 +146,9 @@
 
     <section class="footer">
     	<div class="contactlogos">
-    		<img width="10%" src="Images/facebook.png">
-    		<img width="10%" src="Images/linkedin.png">
-    		<img width="10%" src="Images/instagram.png">
+    		<a href="https://www.facebook.com/login/" target="_blank"><img width="10%" src="Images/facebook.png"></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img width="10%" src="Images/linkedin.png"></a>
+            <a href="https://www.instagram.com/?hl=en" target="_blank"><img width="10%" src="Images/instagram.png"></a>
     	</div>
     	<div class="footer-elements">
     		<a href="index.html"><span style="word-spacing: 15px">HOME </span></a>
@@ -170,36 +170,8 @@
     	</div>
     	
     </section>
+       <script src="Scripts/script.js"></script>
 
-
-	<script>
-		var slideIndex = 1;
-		showSlides(slideIndex);
-
-		function plusSlides(n) {
-		  showSlides(slideIndex += n);
-		}
-
-		function currentSlide(n) {
-		  showSlides(slideIndex = n);
-		}
-
-		function showSlides(n) {
-		  var i;
-		  var slides = document.getElementsByClassName("mySlides");
-		  var dots = document.getElementsByClassName("dot");
-		  if (n > slides.length) {slideIndex = 1}    
-		  if (n < 1) {slideIndex = slides.length}
-		  for (i = 0; i < slides.length; i++) {
-		      slides[i].style.display = "none";  
-		  }
-		  for (i = 0; i < dots.length; i++) {
-		      dots[i].className = dots[i].className.replace(" active", "");
-		  }
-		  slides[slideIndex-1].style.display = "block";  
-		  dots[slideIndex-1].className += " active";
-		}
-	</script>
 
   </body>
 </html>
