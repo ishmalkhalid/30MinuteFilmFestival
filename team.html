@@ -1,5 +1,7 @@
+<!--TEAM PAGE-->
 <!DOCTYPE html>
 <html lang = "en" dir = "ltr">
+    
   <head>
     <meta charset = "utf-8" >
     <title>LOLLYWOOD LTD.</title>
@@ -8,9 +10,11 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
-
   </head>
+    
   <body>
+      
+<!--   NAVIGATION BAR   -->
     <nav>
       <input type="checkbox" id = "check">
       <label for="check" class = "checkbtn">
@@ -24,95 +28,94 @@
           <li><a href = "contact.html">Contact</a></li>
       </ul>
     </nav>
-
-    <section class="bg-3">
+      
+<!--TEAM MAIN SECTION-->
+    <section class="teambg">
         <div class="team-title"><b>OUR TEAM </b></div>  
-    <!-- INSPIRATION FROM W3SCHOOLS -->
+        
+        <!-- INSPIRATION FROM W3SCHOOLS TO CREATE A CAROUSEL -->
 		<div class="slideshow-container">
+            <!--TEAM MEMBER 1-->
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 4</div>
+              <img class="personimg" src="Images/ishmalimg.png">
+              <div class="eachperson">
+                <div>"If the plan doesn't work, change the plan. Not the goal."</div>
+                <br>
+                <div class="personname"><b>Ishmal Khalid</b></div>
+              </div>
+            </div>
+            <!--TEAM MEMBER 2-->
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 4</div>
+              <img class="personimg" src="Images/hessaimg.png">
+              <div class="eachperson">
+                <div>"Keep on learning and discovering yourself."</div>
+                  <br>
+                <div class="person"><b>Hessa Alabbas</b></div>
+              </div>
+            </div>
+            <!--TEAM MEMBER 3-->
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 4</div>
+              <img class="personimg" src="Images/aminaimg.png">
+              <div class="eachperson">
+                <div>"Never forget why you started."</div>
+                  <br>
+                <div class="personname"><b>Amina Kobenova</b></div>
+              </div>
+            </div>
+            <!--TEAM MEMBER 4-->
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 4</div>
+              <img class="personimg" src="Images/rashidimg.png">
+              <div class="eachperson">
+                <div>"Don't live up on expectations."</div>
+                  <br>
+                <div class="personname"><b>Rashid Al Qubaisi</b></div>
+              </div>
+            </div>
+            <!--PREVIOUS AND NEXT BUTTONS-->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-		<div class="mySlides fade">
-		  <div class="numbertext">1 / 4</div>
-		  <img class="ishmalimg" src="Images/ishmalimg.png">
-		  <div class="eachtestimonial">
-		  	<div>"If the plan doesn't work, change the plan. Not the goal."</div>
-            <br>
-		  	<div class="person"><b>Ishmal Khalid</b></div>
-            
-		  </div>
 		</div>
-
-		<div class="mySlides fade">
-		  <div class="numbertext">1 / 4</div>
-		  <img class="ishmalimg" src="Images/hessaimg.png">
-		  <div class="eachtestimonial">
-		  	<div>"Keep on learning and discovering yourself."</div>
-              <br>
-		  	<div class="person"><b>Hessa Alabbas</b></div>
-		  </div>
-		</div>
-
-		<div class="mySlides fade">
-		  <div class="numbertext">1 / 4</div>
-		  <img class="ishmalimg" src="Images/aminaimg.png">
-		  <div class="eachtestimonial">
-		  	<div>"Never forget why you started."</div>
-              <br>
-		  	<div class="person"><b>Amina Kobenova</b></div>
-		  </div>
-		</div>
-            
-        <div class="mySlides fade">
-		  <div class="numbertext">1 / 4</div>
-		  <img class="ishmalimg" src="Images/rashidimg.png">
-		  <div class="eachtestimonial">
-		  	<div>"Don't live up on expectations."</div>
-              <br>
-		  	<div class="person"><b>Rashid Al Qubaisi</b></div>
-		  </div>
-		</div>
-
-		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-		<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-		</div>
-
+<!--ADDING THE DOTS FOR THE CAROUSEL-->
 		<div style="text-align:center" id="mydots">
 		  <span class="dot" onclick="currentSlide(1)"></span> 
 		  <span class="dot" onclick="currentSlide(2)"></span> 
 		  <span class="dot" onclick="currentSlide(3)"></span>
           <span class="dot" onclick="currentSlide(4)"></span> 
 		</div> 
-
     </section>
         
-      
-    <section class="footer">
-    	<div class="contactlogos">
-    		<a href="https://www.facebook.com/login/" target="_blank"><img width="10%" src="Images/facebook.png"></a>
-            <a href="https://www.linkedin.com/" target="_blank"><img width="10%" src="Images/linkedin.png"></a>
-            <a href="https://www.instagram.com/?hl=en" target="_blank"><img width="10%" src="Images/instagram.png"></a>
-    	</div>
-    	<div class="footer-elements">
-    		<a href="index.html"><span style="word-spacing: 15px">HOME </span></a>
-    		<span style="letter-spacing: 15px">|</span>
-    		<a href="about.html"><span style="word-spacing: 15px">ABOUT </span></a>
-    		<span style="letter-spacing: 15px">|</span>
-    		<a href="team.html"><span style="word-spacing: 15px">TEAM </span></a>
-    		<span style="letter-spacing: 15px">|</span>
-    		<a href="contact.html"><span style="word-spacing: 15px">CONTACT </span></a>
-            <div style="padding-top: 10px">
-                <i class="far fa-envelope"> <span class="icontxt"> lollywood@ltd.com</span></i>
-                <i style="padding-left: 30px;" class="fas fa-phone-alt"> <span class="icontxt"> (+971) 563 936948</span></i>
-                <i style="padding-left: 30px;" class="fas fa-home"> <span class="icontxt"> Al Ain Palace, 39th Street, 02970 </span></i>
+<!--FOOTER-->
+        <section class="footer">
+<!--   ADDING FOOTER LOGOS FOR SOCIAL MEDIA    -->
+            <div class="contactlogos">
+                <a href="https://www.facebook.com/login/" target="_blank"><img width="10%" src="Images/facebook.png"></a>
+                <a href="https://www.linkedin.com/" target="_blank"><img width="10%" src="Images/linkedin.png"></a>
+                <a href="https://www.instagram.com/?hl=en" target="_blank"><img width="10%" src="Images/instagram.png"></a>
             </div>
-    		<div style="padding-top: 10px; font-size: 11px">COPYRIGHT &copy 2020 LOLLYWOOD LTD. All Rights Reserved.</div>
-    	</div>
-    	<div>
-    		
-    	</div>
-    	
-    </section>
+            <div class="footer-elements">
+<!--   ADDING WEBSITE PAGES       -->
+                <a href="index.html"><span style="word-spacing: 15px">HOME </span></a>
+                <span style="letter-spacing: 15px">|</span>
+                <a href="about.html"><span style="word-spacing: 15px">ABOUT </span></a>
+                <span style="letter-spacing: 15px">|</span>
+                <a href="team.html"><span style="word-spacing: 15px">TEAM </span></a>
+                <span style="letter-spacing: 15px">|</span>
+                <a href="contact.html"><span style="word-spacing: 15px">CONTACT </span></a>
+                <div style="padding-top: 10px">
+<!--   ADDING CONTACT INFORMATION      -->
+                    <i class="far fa-envelope"> <span class="icontxt"> lollywood@ltd.com</span></i>
+                    <i style="padding-left: 30px;" class="fas fa-phone-alt"> <span class="icontxt"> (+971) 563 936948</span></i>
+                    <i style="padding-left: 30px;" class="fas fa-home"> <span class="icontxt"> Al Ain Palace, 39th Street, 02970 </span></i>
+                </div>
+                <div style="padding-top: 10px; font-size: 11px">COPYRIGHT &copy 2020 LOLLYWOOD LTD. All Rights Reserved.</div>
+            </div>
+        </section>
+<!--  LINKING THE JAVASCRIPT FILE  -->
       <script src="Scripts/script.js"></script>
-
     </body>
 </html>

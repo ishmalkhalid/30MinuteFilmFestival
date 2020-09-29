@@ -1,3 +1,4 @@
+/*ABOUT PAGE*/
 *{
   padding:0;
   margin:0;
@@ -8,19 +9,16 @@
 body{
   font-family: 'Poppins', sans-serif;;
 }
+
+/*NAVIGATION BAR*/
 nav{
   background: black;
   height:85px;
-/*  width:100%;
-*/  min-width: 1440px;
+  min-width: 1440px;
 }
 .logo{
-/*  color:#907137;
-  font-size: 35px;
-  line-height: 80px;*/
   padding: 20px 0 30px 100px;
   width: 22%;
-/*  font-weight: bold;*/
 }
 
 nav ul{
@@ -61,51 +59,13 @@ a.active, a:hover{
   display: none;
 }
 
-@media (max-width:952px){
-  label.logo{
-    font-size:30px;
-    padding-left: 50px;
-  }
-  nav ul li a{
-    font-size: 16px;
-  }
-}
-@media (max-width:858px){
-  .checkbtn{
-    display: block;
-  }
-  ul {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: #202020;
-    top:80px;
-    left:-100%;
-    text-align: center;
-    transition: all .5s;
-  }
-  nav ul li{
-    display:block;
-    margin: 50px 0;
-    line-height: 30px;
-  }
-  nav ul li a{
-    font-size:20px;
-  }
-  a:hover, a.active{
-	color: #DABF8D;
-	text-decoration: underline;
-	transition: .3s;
-  }
-  #check:checked ~ ul{
-    left:0;
-  }
-}
 
+/* SETTING THE MINIMUM WIDTH OF THE MAIN BACKGROUND*/
 .bg-1 {  
 	min-width: 1440px;
 }
 
+/*ABOUT US TITLE*/
 .about-title {
     min-width: 1440px;
     color: #ffe680;
@@ -117,12 +77,12 @@ a.active, a:hover{
     -webkit-text-fill-color: transparent;
 }
 
-.img1 {
+/*SETTING THE IMAGE AS THE BACKGROUND*/
+.aboutbg {
     height: 90vh;
     background:linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.65)), url(bag.jpg);
     background-size: cover;
     min-width: 1440px;
-/*    max-width: 1440px;*/
 }
 
 .abouttxt {
@@ -133,41 +93,30 @@ a.active, a:hover{
     box-sizing: border-box;
 }
 
+/*TEXT OF THE QUESTIONS*/
 .question {
     text-align: center;
     font-size: 2em;
     padding: 15px 0 0 0; 
     color: #ffe680;
-/*    text-shadow: 2px 2px #b36b00;*/
 }
 
+/*TEXT OF THE ANSWERS*/
 .answer {
     text-align: justify;
     font-size: 1.15em;
     padding: 10px 280px 5px 280px;
     color: #ffe680;
     line-height: 30px;
-/*
-    width: 80%;
-    margin: 0 auto;
-*/
 }
 
-.mid {
-/*    background-color: black*/
-/*    font-family: 'Cairo', sans-serif;*/
-/*    box-shadow: 10px 10px 8px #663d00;*/
-/*   background-image: linear-gradient(to right, rgba(179,107,0,0), rgba(50, 10, 10, 1));*/
-/*       background-image: linear-gradient(to right,#b36b00, #DABF8D);*/
-
-}
-
+/*FOOTER*/
 .footer {
 	background-color: black; 
 	height: 30vh;
 	min-width: 1440px;
 }
-
+/*CONTACT LOGOS*/
 .contactlogos {
 	width: 50%;
 	text-align: center;
@@ -186,7 +135,6 @@ a.active, a:hover{
     color: darkgrey;
     
 }
-
 .icontxt {
     font-family: 'Poppins', sans-serif; 
     font-weight: normal;
