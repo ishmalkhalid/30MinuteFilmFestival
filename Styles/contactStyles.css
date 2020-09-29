@@ -105,20 +105,21 @@ a.active, a:hover{
 .contact-title {
     min-width: 1440px;
     color: #ffe680;
-/*    color: #b36b00;*/
-    padding: 2.5px 0 0px 30px;
+    padding: 15px 0 10px 5px;
     font-size: 45px;
     text-align: center;
     background: -webkit-linear-gradient(#b36b00, #DABF8D);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+/*
 .contacttxt {
     height: 65vh;
     background-color: rgba(0,0,0,0.6);
     margin: 0 150px;
     border-radius: 15px;
 }
+*/
 
 .bg-1{
     background:linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(contactbag.jpg);  
@@ -173,10 +174,8 @@ border-radius: 15px;
 }
 
 .form-container {
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
-
-
 
 .footer {
 	background-color: black; 
@@ -201,4 +200,10 @@ border-radius: 15px;
     text-decoration: none;
     color: darkgrey;
     
+}
+
+.icontxt {
+    font-family: 'Poppins', sans-serif; 
+    font-weight: normal;
+    font-size: 14px;
 }

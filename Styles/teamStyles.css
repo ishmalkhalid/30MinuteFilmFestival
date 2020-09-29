@@ -117,20 +117,21 @@ a.active, a:hover{
 .team-title {
     min-width: 1440px;
     color: #ffe680;
-/*    color: #b36b00;*/
-    padding: 2.5px 0 0px 30px;
+    padding: 15px 0 10px 5px;
     font-size: 45px;
     text-align: center;
     background: -webkit-linear-gradient(#b36b00, #DABF8D);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+/*
 .abouttxt {
-    height: 65vh;
+    height: 50vh;
     background-color: rgba(0,0,0,0.6);
     margin: 0 150px;
     border-radius: 15px;
 }
+*/
 
 .bg-3 {
     background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(teambg.jpg);  
@@ -149,11 +150,7 @@ a.active, a:hover{
 }
 
 .hessaimg {
-    display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 16%;
-	padding-top: 20px;
+
 }
 
 .eachtestimonial {
@@ -173,9 +170,9 @@ a.active, a:hover{
 .slideshow-container {
     position: relative;
 	margin: auto;
-    height: 66vh;
+    height: 60vh;
     background-color: rgba(0,0,0,0.6);
-    margin: 0 150px;
+    margin: 0 200px;
     border-radius: 15px;
 }
 
@@ -236,18 +233,18 @@ a.active, a:hover{
   cursor: pointer;
   height: 15px;
   width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
+  margin: 15px 2px;
+  background-color: #ffe680;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 .dot:hover {
-  background-color: #717171;
+  background-color: #995c00;
 }
 
 #mydots .active{
-	background-color: #717171;
+	background-color: #995c00;
 }
 
 /* Fading animation */
@@ -267,18 +264,6 @@ a.active, a:hover{
   from {opacity: .4}
   to {opacity: 1}
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -306,4 +291,10 @@ a.active, a:hover{
     text-decoration: none;
     color: darkgrey;
     
+}
+
+.icontxt {
+    font-family: 'Poppins', sans-serif; 
+    font-weight: normal;
+    font-size: 14px;
 }

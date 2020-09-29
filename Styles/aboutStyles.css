@@ -109,7 +109,7 @@ a.active, a:hover{
 .about-title {
     min-width: 1440px;
     color: #ffe680;
-    padding: 2.5px 0 0px 30px;
+    padding: 15px 0 10px 5px;
     font-size: 45px;
     text-align: center;
     background: -webkit-linear-gradient(#b36b00, #DABF8D);
@@ -118,16 +118,19 @@ a.active, a:hover{
 }
 
 .img1 {
-    height: 80vh;
+    height: 90vh;
     background:linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.65)), url(bag.jpg);
     background-size: cover;
+    min-width: 1440px;
+/*    max-width: 1440px;*/
 }
 
 .abouttxt {
-    height: 65vh;
+    height: 73vh;
     background-color: rgba(0,0,0,0.6);
     margin: 0 150px;
     border-radius: 15px;
+    box-sizing: border-box;
 }
 
 .question {
@@ -139,10 +142,15 @@ a.active, a:hover{
 }
 
 .answer {
-    text-align: center;
+    text-align: justify;
     font-size: 1.15em;
-    padding: 0 300px 5px 300px;
+    padding: 10px 280px 5px 280px;
     color: #ffe680;
+    line-height: 30px;
+/*
+    width: 80%;
+    margin: 0 auto;
+*/
 }
 
 .mid {
@@ -153,7 +161,6 @@ a.active, a:hover{
 /*       background-image: linear-gradient(to right,#b36b00, #DABF8D);*/
 
 }
-
 
 .footer {
 	background-color: black; 
@@ -178,4 +185,10 @@ a.active, a:hover{
     text-decoration: none;
     color: darkgrey;
     
+}
+
+.icontxt {
+    font-family: 'Poppins', sans-serif; 
+    font-weight: normal;
+    font-size: 14px;
 }
