@@ -63,7 +63,7 @@ a.active, a:hover{
 
 /*LANDING PAGE BACKGROUND*/
 .bg-1 {
-	background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(try4.jpg);
+	background:linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.6)), url(greypaper.jpg);
 	background-size: cover;
 	height: 85vh;
 	min-width: 1440px;
